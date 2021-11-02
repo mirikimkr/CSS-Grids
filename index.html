@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Grids</title>
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        grid-gap: 1em;
+      }
+      .grid-container > div {
+        background: #eee;
+        padding: 1em;
+      }
+      .grid-container > div:nth-child(odd) {
+        background-color: #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid-item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sunt
+        architecto, cum accusantium at illum itaque repudiandae consectetur
+        provident rem unde enim saepe! Itaque quisquam eaque id ullam, animi
+        obcaecati modi magnam repellendus iste optio non architecto provident
+        maiores nostrum sed numquam corporis ea fugiat ut recusandae nobis eius
+        tempore! Quidem ullam ad accusamus corporis illo veniam, corrupti hic
+        voluptates sint beatae laudantium blanditiis earum! Sapiente dolor quos
+        architecto iure inventore corporis quia amet, officia praesentium! Magni
+        inventore eum cum.
+      </div>
+      <div class="grid-item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, aliquam
+        quas hic blanditiis recusandae nostrum tempore sed praesentium obcaecati
+        totam facilis dolores veniam, dolor, eveniet modi esse at cum
+        reiciendis.
+      </div>
+      <div class="grid-item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sunt
+        architecto, cum accusantium at illum itaque repudiandae consectetur
+        provident rem unde enim saepe! Itaque quisquam eaque id ullam, animi
+        obcaecati modi magnam repellendus iste optio non architecto provident
+        maiores nostrum sed numquam corporis ea fugiat ut recusandae nobis eius
+        tempore! Quidem ullam ad accusamus corporis illo veniam, corrupti hic
+        voluptates sint beatae laudantium blanditiis earum! Sapiente dolor quos
+        architecto iure inventore corporis quia amet, officia praesentium! Magni
+        inventore eum cum.
+      </div>
+      <div class="grid-item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, aliquam
+        quas hic blanditiis recusandae nostrum tempore sed praesentium obcaecati
+        totam facilis dolores veniam, dolor, eveniet modi esse at cum
+        reiciendis.
+      </div>
+    </div>
+  </body>
+</html>
